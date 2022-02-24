@@ -1,0 +1,28 @@
+#githubl {
+    background: var(--github);
+    float: right;
+    height: 60px;
+    width: 60px;
+}
+#openpropsl {
+    background-image: url("../a/openprops.ico");
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+#vscl {
+    background: var(--vsc);
+    height: 60px;
+    width: 60px;
+    float: left;
+}
+#quellenl {
+    height: 150px;
+    border-radius: var(--radius-3);
+    float: right;
+}
+section {
+    margin: 0 100px;
+}

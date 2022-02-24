@@ -1,0 +1,87 @@
+@import "https://unpkg.com/open-props";
+
+/* https://icones.js.org/collection/wpf */
+/* https://icones.js.org/collection/ph?s= */
+/* https://icones.js.org/collection/uil */
+/* https://haikei.app/ */
+/* https://cssgradient.io/ */
+/* https://open-props.style/ */
+/* https://fonts.google.com/ */
+/* https://icones.js.org/collection/eos-icons */
+
+:root {
+    /* alles sind "background: " variabeln! */
+    /*
+        zwischen den "Herstellern" kann es parety Probleme geben!!
+        dann einfach mehr holen (links sind oben)
+    */
+    --poweron: url('https://api.iconify.design/wpf:shutdown.svg?color=currentColor') no-repeat center center / contain;
+    --star: url('https://api.iconify.design/wpf:star.svg?color=currentColor') no-repeat center center / contain;
+    --ghost: url('https://api.iconify.design/wpf:ghost.svg?color=currentColor') no-repeat center center / contain;
+    --verified: url('https://api.iconify.design/wpf:approval.svg?color=currentColor') no-repeat center center / contain;
+    --happy: url('https://api.iconify.design/wpf:happy.svg?color=currentColor') no-repeat center center / contain;
+    --lol: url('https://api.iconify.design/wpf:lol.svg?color=currentColor') no-repeat center center / contain;
+    --search: url('https://api.iconify.design/wpf:search.svg?color=currentColor') no-repeat center center / contain;
+
+    --apple: url('https://api.iconify.design/ph:apple-logo-bold.svg?color=currentColor') no-repeat center center / contain;
+    --landing: url('https://api.iconify.design/ph:airplane-landing-bold.svg?color=currentColor') no-repeat center center / contain;
+    --contact: url('https://api.iconify.design/ph:address-book-bold.svg?color=currentColor') no-repeat center center / contain;
+    --android: url('https://api.iconify.design/ph:android-logo-bold.svg?color=currentColor') no-repeat center center / contain;
+    --undo: url('https://api.iconify.design/ph:arrow-arc-left-bold.svg?color=currentColor') no-repeat center center / contain;
+    --clockwise: url('https://api.iconify.design/ph:arrow-clockwise-bold.svg?color=currentColor') no-repeat center center / contain;
+    --counter-clockwise: url('https://api.iconify.design/ph:arrow-counter-clockwise-bold.svg?color=currentColor') no-repeat center center / contain;
+    --at: url('https://api.iconify.design/ph:at-bold.svg?color=currentColor') no-repeat center center / contain;
+    --atom: url('https://api.iconify.design/ph:atom-bold.svg?color=currentColor') no-repeat center center / contain;
+    --delete: url('https://api.iconify.design/ph:backspace-bold.svg?color=currentColor') no-repeat center center / contain;
+    --baby: url('https://api.iconify.design/ph:baby-bold.svg?color=currentColor') no-repeat center center / contain;
+    --bell: url('https://api.iconify.design/ph:bell-ringing-bold.svg?color=currentColor') no-repeat center center / contain;
+    --bike: url('https://api.iconify.design/ph:bicycle-bold.svg?color=currentColor') no-repeat center center / contain;
+    --battery-low: url('https://api.iconify.design/ph:battery-low-bold.svg?color=currentColor') no-repeat center center / contain;
+    --battery-medium: url('https://api.iconify.design/ph:battery-medium-bold.svg?color=currentColor') no-repeat center center / contain;
+    --battery-full: url('https://api.iconify.design/ph:battery-full-bold.svg?color=currentColor') no-repeat center center / contain;
+    --battery-charging: url('https://api.iconify.design/ph:battery-plus-bold.svg?color=currentColor') no-repeat center center / contain;
+    --brackets: url('https://api.iconify.design/ph:brackets-curly-bold.svg?color=currentColor') no-repeat center center / contain;
+    --brain: url('https://api.iconify.design/ph:brain-bold.svg?color=currentColor') no-repeat center center / contain;
+    --cake: url('https://api.iconify.design/ph:cake-bold.svg?color=currentColor') no-repeat center center / contain;
+    --bug: url('https://api.iconify.design/ph:bug-bold.svg?color=currentColor') no-repeat center center / contain;
+    --cat: url('https://api.iconify.design/ph:cat-bold.svg?color=currentColor') no-repeat center center / contain;
+    --chack: url('https://api.iconify.design/ph:check-circle-bold.svg?color=currentColor') no-repeat center center / contain;
+    --clock: url('https://api.iconify.design/ph:clock.svg?color=currentColor') no-repeat center center / contain;
+    --coffee: url('https://api.iconify.design/ph:coffee-bold.svg?color=currentColor') no-repeat center center / contain;
+    --download: url('https://api.iconify.design/ph:download-bold.svg?color=currentColor') no-repeat center center / contain;
+    --html: url('https://api.iconify.design/ph:file-html-bold.svg?color=currentColor') no-repeat center center / contain;
+    --css: url('https://api.iconify.design/ph:file-css-bold.svg?color=currentColor') no-repeat center center / contain;
+    --code: url('https://api.iconify.design/ph:file-code-bold.svg?color=currentColor') no-repeat center center / contain;
+    --js: url('https://api.iconify.design/ph:file-js-bold.svg?color=currentColor') no-repeat center center / contain;
+    --fingerprint: url('https://api.iconify.design/ph:fingerprint-bold.svg?color=currentColor') no-repeat center center / contain;
+    --chemestry: url('https://api.iconify.design/ph:flask-bold.svg?color=currentColor') no-repeat center center / contain;
+    --folder: url('https://api.iconify.design/ph:folder-bold.svg?color=currentColor') no-repeat center center / contain;
+    --locked-folder: url('https://api.iconify.design/ph:folder-lock.svg?color=currentColor') no-repeat center center / contain;
+    --internet: url('https://api.iconify.design/ph:globe-bold.svg?color=currentColor') no-repeat center center / contain;
+    --endless: url('https://api.iconify.design/ph:infinity-bold.svg?color=currentColor') no-repeat center center / contain;
+    --key: url('https://api.iconify.design/ph:key-bold.svg?color=currentColor') no-repeat center center / contain;
+    --lightbulb: url('https://api.iconify.design/ph:lightbulb-bold.svg?color=currentColor') no-repeat center center / contain;
+    --link: url('https://api.iconify.design/ph:link-simple-bold.svg?color=currentColor') no-repeat center center / contain;
+    --moon: url('https://api.iconify.design/ph:moon-stars-bold.svg?color=currentColor') no-repeat center center / contain;
+    --do-not-disturb: url('https://api.iconify.design/ph:minus-circle-bold.svg?color=currentColor') no-repeat center center / contain;
+    --music: url('https://api.iconify.design/ph:music-notes-bold.svg?color=currentColor') no-repeat center center / contain;
+    --notes: url('https://api.iconify.design/ph:notepad-bold.svg?color=currentColor') no-repeat center center / contain;
+    --pin: url('https://api.iconify.design/ph:push-pin-bold.svg?color=currentColor') no-repeat center center / contain;
+    --shuffle: url('https://api.iconify.design/ph:shuffle-bold.svg?color=currentColor') no-repeat center center / contain;
+    --sparcle: url('https://api.iconify.design/ph:sparkle-bold.svg?color=currentColor') no-repeat center center / contain;
+    --tag: url('https://api.iconify.design/ph:tag-chevron-bold.svg?color=currentColor') no-repeat center center / contain;
+    --terminal: url('https://api.iconify.design/ph:terminal-window-bold.svg?color=currentColor') no-repeat center center / contain;
+    --thubs-up: url('https://api.iconify.design/ph:thumbs-up-bold.svg?color=currentColor') no-repeat center center / contain;
+    --thumbs-down: url('https://api.iconify.design/ph:thumbs-down-bold.svg?color=currentColor') no-repeat center center / contain;
+    --warning: url('https://api.iconify.design/ph:warning-bold.svg?color=currentColor') no-repeat center center / contain;
+    --wheelchair: url('https://api.iconify.design/ph:wheelchair-bold.svg?color=currentColor') no-repeat center center / contain;
+    --youtube: url('https://api.iconify.design/ph:youtube-logo-bold.svg?color=currentColor') no-repeat center center / contain;
+
+    --vsc: url('https://api.iconify.design/uil:visual-studio.svg?color=currentColor') no-repeat center center / contain;
+    --truck: url('https://api.iconify.design/uil:truck.svg?color=currentColor') no-repeat center center / contain;
+    --ambulance: url('https://api.iconify.design/uil:ambulance.svg?color=currentColor') no-repeat center center / contain;
+    --cell: url('https://api.iconify.design/uil:cell.svg?color=currentColor') no-repeat center center / contain;
+
+    --github: url('https://api.iconify.design/icon-park-outline:github.svg?color=currentColor') no-repeat center center / contain;
+    
+}

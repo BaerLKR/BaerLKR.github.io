@@ -1,0 +1,50 @@
+@import "https://unpkg.com/open-props";
+
+/* https://haikei.app/ */
+/* https://cssgradient.io/ */
+/* https://open-props.style/ */
+/* https://fonts.google.com/ */
+
+.hover:hover {
+    transform: scale(1.2);    
+    transition-duration: 0.5s;
+}
+.scroller {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 27px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 8px;
+    padding: 8px;
+}
+.right {
+    float: right;
+}
+.left {
+  float: left;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 15px;
+  padding: 10px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 15px;
+  padding: 10px;
+}
+.grid4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 15px;
+  padding: 10px;
+}
+.center {
+    text-align: center;
+}
+.shadow {
+  box-shadow: var(--shadow-6);
+}
